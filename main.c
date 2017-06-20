@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-void a(void)
+void A(void)
 {
-	printf("a\r\n");
+	printf("A\r\n");
 }
 
 void b(void)
@@ -14,8 +14,8 @@ int main(void)
 {
 	printf("Hello, World!\r\n");
 
-	a();
 	b();
+	A();
 
 	return 0;
 }
